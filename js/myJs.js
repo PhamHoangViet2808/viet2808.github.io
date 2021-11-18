@@ -35,7 +35,7 @@ $(document).ready(function () {
     Swal.fire({
       title: textConfig.text1,
       text: textConfig.text2,
-      imageUrl: "img/hinh3.jpg",
+      imageUrl: "img/cuteCat.jpg",
       imageWidth: 500,
       imageHeight: 500,
       background: '#fff url("img/hinh2.jpg")',
