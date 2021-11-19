@@ -47,7 +47,7 @@ $(document).ready(function () {
 
   // switch button position
   function switchButton() {
-    var audio = new Audio("sound/duck.mp3");
+    var audio = new Audio("sound/sound_duck.mp3");
     audio.play();
     var leftNo = $("#no").css("left");
     var topNO = $("#no").css("top");
@@ -60,8 +60,7 @@ $(document).ready(function () {
   }
   // move random button póition
   function moveButton() {
-    var audio = new Audio("sound/Swish1.mp3");
-    audio.play();
+    var audio = new Audio("sound/sound_Swish1.mp3");
     if (screen.width <= 600) {
       var x = Math.random() * 300;
       var y = Math.random() * 500;
@@ -107,7 +106,7 @@ $(document).ready(function () {
 
   // show popup
   $("#yes").click(function () {
-    var audio = new Audio("sound/tick.mp3");
+    var audio = new Audio("sound/sound_tick.mp3");
     audio.play();
     Swal.fire({
       title: textConfig.text7,
@@ -138,7 +137,7 @@ $(document).ready(function () {
           text: textConfig.text11,
           confirmButtonColor: "#83d0c9",
           onClose: () => {
-            window.location = "https://www.facebook.com/profile.php?id=100033769630812";
+            window.location = "https://www.facebook.com/profile.php?id=100062564989358";
           },
         });
       }
